@@ -1,0 +1,26 @@
+linux basic commands
+. linux is written in c lang
+.
+
+1. cd
+$ cd <directory_name> (Will move to the desired directory)
+$ Cd .. (will move back to the previous directory)
+
+2. ls
+The “ls” command lists files that present the directory you want to work with, except for hidden files.
+
+3. mkdir
+“mkdir”  also known as “ make directory”. This command is used to create single or multiple directories.
+
+4. rm
+“rm”  also know as “remove”.This command is used to remove a file. If we use the rm command, the file will be permanently deleted.
+
+
+
+//FOR USING VIM
+vim filename
+
+//TO COMPILE AND RUN FILE 
+
+g++ filename -o anything
+./anything 
