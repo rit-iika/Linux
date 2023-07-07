@@ -24,3 +24,20 @@ vim filename
 
 g++ filename -o anything
 ./anything 
+
+grep
+grep commands are used to find/search for specifics..
+grep -i "endl" oops.cpp    //give all such words without case sensitive, also substrings
+grep -w "endl" oops.cpp    // only give proper words, no substrings
+grep -c "endl" oops.cpp    //give count of words
+grep -l "endl" oops.cpp    //list all the files containing this word
+grep -n "endl" oops.cpp    //gives number of lines matching the word
+grep "^endl" oops.cpp       //gives all lines where word begins with string
+grep "endl$" oops.cpp       //gives all lines where word ends with string
+
+
+
+
+
+
+
