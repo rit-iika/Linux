@@ -1,3 +1,4 @@
+
 linux basic commands
 . linux is written in c lang
 .
@@ -34,6 +35,7 @@ grep -l "endl" oops.cpp    //list all the files containing this word
 grep -n "endl" oops.cpp    //gives number of lines matching the word
 grep "^endl" oops.cpp       //gives all lines where word begins with string
 grep "endl$" oops.cpp       //gives all lines where word ends with string
+grep -iR "endl" oops.cpp      //recursively check for all words
 
 
 
